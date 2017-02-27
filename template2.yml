@@ -1,0 +1,6 @@
+---
+- name: This is Ipath ansible project
+  hosts: all
+  tasks:
+    - name: check ipath archive exist
+      command: ls ipath.zip
