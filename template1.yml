@@ -1,0 +1,6 @@
+---
+- name: This is Ipath ansible example
+  hosts: all
+  tasks:
+    - name: print system hostname
+      command: hostname
